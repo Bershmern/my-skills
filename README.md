@@ -29,6 +29,12 @@ To use these skills globally with Antigravity or Gemini CLI, symlink or copy ind
 
 ## Personal skills sync
 
-This repository also includes the personal skills installed in Codex user folders. It currently contains 55 skills (including the nested `workctl-operator` skill).
+This repository also includes the personal skills installed in Codex user folders. It currently contains 59 skills (including the nested `workctl-operator` skill).
 
 For Codex, install skill folders in `~/.agents/skills/`. Existing installations in `~/.codex/skills/` can remain there; avoid creating duplicate copies. For Gemini, install in `~/.gemini/config/skills/`. Built-in system and plugin skills are excluded.
+
+### Additional synced skills
+
+- `motion`: web animation guidance and Motion tools. Some features require the Motion MCP server or Motion+.
+- `marketing-graphics` and `content-scripts`: Noble Casca-specific workflows. Run against the Noble Casca project context; they reference its `project-docs/brand-source-of-truth.md` and `project-docs/session-log.md`. Project documents are not bundled here.
+- `data-warehouse-source-setup`: PostHog source setup, including its bundled references. Requires the relevant PostHog tools or browser setup.
