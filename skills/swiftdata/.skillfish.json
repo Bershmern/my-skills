@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "swiftdata",
+  "owner": "robbyt",
+  "repo": "claude-skills",
+  "path": "plugins/swift/skills/swiftdata",
+  "branch": "main",
+  "sha": "f3d1e5464df0ab23fc32b96e400b143ee8b84219",
+  "source": "manual"
+}

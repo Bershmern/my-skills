@@ -26,3 +26,9 @@ A unified repository containing custom agent skills for design, research, market
 Each skill directory contains a `SKILL.md` defining the agent instructions and any supporting scripts or references.
 
 To use these skills globally with Antigravity or Gemini CLI, symlink or copy individual skill folders to `~/.gemini/config/skills/`.
+
+## Personal skills sync
+
+This repository also includes the personal skills installed in Codex user folders. It currently contains 55 skills (including the nested `workctl-operator` skill).
+
+For Codex, install skill folders in `~/.agents/skills/`. Existing installations in `~/.codex/skills/` can remain there; avoid creating duplicate copies. For Gemini, install in `~/.gemini/config/skills/`. Built-in system and plugin skills are excluded.

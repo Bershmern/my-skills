@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "web-app-designer",
+  "owner": "caphtech",
+  "repo": "claude-marketplace",
+  "path": "design-plugin/skills/web-app-designer",
+  "branch": "main",
+  "sha": "5fb1bc7b3b2074e4c2bf8a07a7c268d5e404e955",
+  "source": "manual"
+}
